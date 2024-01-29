@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(43, 43, 170);
+}
+
+p{
+    font-size: 3vh;
+}
+
+.container{
+    width: 50vh;
+    height: 50vh;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10vh;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 5vh;
+}
+
+input{
+    width: 40vh;
+    height: 5vh;
+    text-align: end;
+    font-size: 4vh;
+}
+
+.dropdown{
+    width: 40vh;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.select-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.msg{
+    width: 40vh;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vh;
+}
+
+button{
+    width: 40vh;
+    height: 5vh;
+    cursor: pointer;
+    font-size: 3vh;
+}
